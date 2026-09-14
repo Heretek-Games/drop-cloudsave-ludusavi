@@ -8,7 +8,8 @@
   "trust": "trusted",
   "storageVersion": 1,
   "capabilities": [
-    "cloudsave:provider"
+    "cloudsave:provider",
+    "network"
   ],
   "targets": [
     "server"

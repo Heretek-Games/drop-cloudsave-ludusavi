@@ -4,12 +4,10 @@ Ludusavi-backed cloud save path resolution plugin.
 
 ## Toolchain
 
-- Node >= 22, pnpm 10+
-- `pnpm install`, `pnpm build`, `pnpm test`
+- Node >= 22, npm 10+
+- `npm ci`, `npm run build`, `npm test`, `npm run typecheck`
 
 ## Contract
 
 Built on [`@droposs/plugin-sdk`](https://github.com/Heretek-Games/drop-plugin-sdk)
-(plugin API v2). The local dependency resolves the sibling checkout at
-`../drop-plugin-sdk/packages/plugin-sdk` so the workspace builds before the
-SDK is republished to npm.
+(plugin API v2), resolved from the npm registry (`^0.4.0`).
