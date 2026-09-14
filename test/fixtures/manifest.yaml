@@ -1,0 +1,27 @@
+"Hollow Knight":
+  files:
+    "<winLocalAppData>/Hollow Knight":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/.config/unity3d/Team Cherry/Hollow Knight":
+      tags:
+        - save
+      when:
+        - os: linux
+  registry:
+    HKEY_CURRENT_USER/Software/Team Cherry/Hollow Knight:
+      tags:
+        - save
+"Legacy Game":
+  files:
+    - "<home>/.legacy/save"
+    - "<base>/profile"
+  registry:
+    - HKEY_CURRENT_USER/Software/Legacy/Game
+"Registry Only":
+  registry:
+    HKEY_CURRENT_USER/Software/Registry Only:
+      tags:
+        - save
