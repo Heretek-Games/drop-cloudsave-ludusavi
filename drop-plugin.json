@@ -1,0 +1,17 @@
+{
+  "id": "drop-cloudsave-ludusavi",
+  "name": "Ludusavi Cloud Save Resolver",
+  "version": "0.1.0",
+  "description": "Ludusavi-backed cloud save path resolution plugin",
+  "author": "Heretek Games",
+  "apiVersion": 2,
+  "trust": "trusted",
+  "storageVersion": 1,
+  "capabilities": [
+    "cloudsave:provider"
+  ],
+  "targets": [
+    "server"
+  ],
+  "entry": "dist/src/index.js"
+}
