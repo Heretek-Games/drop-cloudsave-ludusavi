@@ -14,5 +14,30 @@
   "targets": [
     "server"
   ],
-  "entry": "dist/src/index.js"
+  "entry": "dist/src/index.js",
+  "checksum": "dcddb88e2724b33c62d1ad20e3df091c91722c58ca192deef9ee166d20478c9e",
+  "files": {
+    ".github/dependabot.yml": "fe156952d1952825377de8e48c90563a3ac19bb95a6e0ced8a2f498a0f20fdf6",
+    ".github/workflows/ci.yml": "60a33a67813097e4744a54b21d8af35e6c0254e56001123a69f34ccf65d1fa8b",
+    ".gitignore": "e8bc935ce727f1809c792f4c5d26c5fc75ba2b7df7fc9390c56c8892f6a6007f",
+    "AGENTS.md": "edee7bb64b4becba3b381d5569f573e25ab15f07bee6572c46d9456f021233a5",
+    "CLAUDE.md": "3b2c8a6a80fe79fa9ee0680b86d2e84ce0b9255d3dc43eccd4e2fce59064c7da",
+    "dist/src/index.d.ts": "259d4df9779b2efe497b720db73363768a9c2263472619daead1e3434d786e1a",
+    "dist/src/index.js": "dcddb88e2724b33c62d1ad20e3df091c91722c58ca192deef9ee166d20478c9e",
+    "dist/src/manifest.d.ts": "285707cb6162e56bb79a9a43b46ccd04162b846db9bb9cc940f8b71eca4d5424",
+    "dist/src/manifest.js": "98cefdaef3198404a263ae477b79c40532b30cf35754e0d1690c59e1cf0b8f6c",
+    "dist/test/ludusavi.test.d.ts": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "dist/test/ludusavi.test.js": "b2a8ad8d7d3c0e316aff41eb7a809b263eb66cefb308d9a306d287877868558d",
+    "eslint.config.mjs": "4cdf67d5a07b1a089d8f39e842a7de7532eb519752d60fe5ac706f42fb7bdc6f",
+    "GEMINI.md": "3b2c8a6a80fe79fa9ee0680b86d2e84ce0b9255d3dc43eccd4e2fce59064c7da",
+    "package-lock.json": "1486deab868e24855cfc9dc9d50ea415ebed3bb0dff0dd7e24c212a1c86b00a9",
+    "package.json": "8012b716eb02fbda5f6a1e7e00aec8b9fb866e219b69c0d9dd86f6b359784bf1",
+    "README.md": "f182da6ed0e89f1dea75c8eb8cc4e0622abc247238937576239690554ee69deb",
+    "SECURITY.md": "1ed84c5e2293a1bda1e0d1650df39f5c03dba9a18ee6d8acff78cc10a6897d2d",
+    "src/index.ts": "a8647fb8ad9a84dd15c82191b6de7f49e683b8a56e8476b3bfa4c2377de05764",
+    "src/manifest.ts": "ccb6369ad6e85cc1f5ab22cf9c6b18c2bf619d4116e635560c8322a2e495706c",
+    "test/fixtures/manifest.yaml": "0b4f85c6ec7c5ced471b76e2baf4f4957144c9538e8de6a1edae6c17bc6fddc2",
+    "test/ludusavi.test.ts": "d1b1f9d5e08f2d05ef8599aa48714be155757c318c1aadb08d69501cfdcd1b95",
+    "tsconfig.json": "e67d6d62d5af3c653c4d1af30dea94d529c721708e54bd8609d748be627e79e5"
+  }
 }
